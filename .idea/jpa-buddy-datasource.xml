@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="d8599843-6930-4664-b486-1b4befdea3ab" name="springboot-rest-api-swagger-security" url="jdbc:h2:file:/data/app" driverClass="org.h2.Driver" />
+    </data-sources>
+  </component>
+</project>

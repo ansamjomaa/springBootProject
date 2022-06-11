@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class SpringbootBlogRestApiApplication {
+public class SpringBootBlogRestApiApplication {
 
 	@Bean
 	public ModelMapper modelMapper(){
@@ -14,7 +14,13 @@ public class SpringbootBlogRestApiApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootBlogRestApiApplication.class, args);
+		try {
+			SpringApplication.run(SpringBootBlogRestApiApplication.class, args);
+		}
+		catch (Exception ex)
+		{
+			ex.printStackTrace();
+		}
 	}
 
 }
